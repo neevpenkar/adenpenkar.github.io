@@ -42447,8 +42447,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 193px;
-    height: 75px;
+    height: 74px;
+    margin-top: 6px;
+    margin-right: 24px;
   }
 
   .u-header .u-logo-image-1 {
@@ -42462,7 +42463,15 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 18px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-image-1 {
+    width: 193px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: -56px;
+  }
+}
 @media (max-width: 767px) {
   .u-header .u-image-1 {
     width: auto;
